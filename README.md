@@ -1,28 +1,37 @@
-# Markdoc docs
+# Next.js example
 
-[Markdoc](https://markdoc.dev) is a [Markdown](https://commonmark.org)-based syntax and toolchain for creating custom documentation sites and experiences.
-We designed Markdoc to power [Stripe's public docs](http://stripe.com/docs), our largest and most complex content site.
+This is a boilerplate for a creating a documentation website using Markdoc and Next.js.
 
-## Contributing
+## Setup
 
-Contributions and feedback are welcomed and encouraged. Feel free to open PRs here, or open issues in the [Markdoc core repo](https://github.com/markdoc/markdoc).
+First, clone this repo and install the dependencies required:
 
-## Installation
+```bash
+npm install
+# or
+yarn install
+```
 
-1. [Fork](https://help.github.com/articles/fork-a-repo) and [clone](https://help.github.com/articles/cloning-a-repository) this repository to your local environment.
+Then, run the development server:
 
-2. Create a new branch with `git checkout -b <BRANCH_NAME>`
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-3. Install the dependencies by running `npm install`
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-4. Start the development server on [http://localhost:3000](http://localhost:3000) by running `npm run dev`
+You can start editing the page by modifying `index.md`. The page auto-updates as you edit the file.
 
-5. Try editing `pages/index.md`
+## Deploy
 
-## Code of conduct
+The quickest way to deploy your own version of this boilerplate is by deploying it with [Vercel](https://vercel.com) by clicking the button below.
 
-This project has adopted the Stripe [Code of conduct](https://github.com/markdoc/markdoc/blob/main/.github/CODE_OF_CONDUCT.md).
+### Deploy with Vercel
 
-## License
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/markdoc/markdoc-starter)
 
-This project uses the [MIT license](LICENSE).
+### Deploy to Netlify
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/markdoc/markdoc-starter)
