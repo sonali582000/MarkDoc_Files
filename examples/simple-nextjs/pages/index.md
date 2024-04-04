@@ -1,6 +1,6 @@
 ---
 title: Get started with Markdoc
-description: How to get started with FastAPI
+description: How to get started with API
 ---
 
 #### Get Started
@@ -41,6 +41,8 @@ Let’s break down the key sections, endpoints, parameters, examples for the “
   ]
 }
 ```
+
+![Image](https://www.kennethlange.com/wp-content/uploads/2018/10/task_api.png)
 
 ### Example Request (Using Axios in React.js):
 
